@@ -1,0 +1,4 @@
+{
+    "caption": "Generate",
+    "doc": "This action generates the QR CODE URL, to save in the database you need to use the \"Save URL\" event."
+}

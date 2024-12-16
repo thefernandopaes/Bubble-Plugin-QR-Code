@@ -1,0 +1,16 @@
+{
+    "categories": {
+        "0": "mobile",
+        "1": "productivity",
+        "2": "data (things)",
+        "3": "containers",
+        "4": "media"
+    },
+    "data_tracked": false,
+    "description": "QR Code - Create customizable QR Codes easily in your Bubble.io app, with support for clientside and serverside.",
+    "image": "//meta-q.cdn.bubble.io/f1734338665397x734120596101075500/1734338655-qr-code.png",
+    "license": "open_source",
+    "name": "QR Code",
+    "plugin_instructions": "QR Code - Create customizable QR Codes easily in your Bubble.io app, with support for clientside and serverside.\n\nSTEP-BY-STEP TO GENERATE A QR CODE IN YOUR PAGE (CLIENT-SIDE):\n\n1) Insert the \"QR Code\" element in your editor.\n\n2) Use the action \"Generate QR Code\" in the workflow.\n- When using special characters, such as in URLs, it is best to format the value as \"URL Encoded\" (uncheck the \"Replace spaces by +\" box). See the example below.\n\n3) Use the event \"QR Code Save URL\" to save this URL in your database.\n\n4) Use an \"image\" element to show the QR Code.\n\nSee the example below.\n\n\nSTEP-BY-STEP TO GENERATE A QR CODE IN BACKEND WORKFLOWS (SERVER-SIDE):\n\n1) Use the action \"Generate QR Code (Serverside)\" in the workflow (Data/Things -> QR Code).\n- When using special characters, such as in URLs, it is best to format the value as \"URL Encoded\" (uncheck the \"Replace spaces by +\" box). See the example below.\n\n\n\nACTIONS:\n- Element -> Generate QR Code\n- Data/Things -> Generate QR Code (Serverside)\n\n\nSTATES:\n- URL: URL for the QR Code Image. You can save this to your database.\n\nEVENTS:\n- Saved URL: Triggers when the QR Code is generated. Use this to save the URL in your database.",
+    "sa_node_version": 18
+}

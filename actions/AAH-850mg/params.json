@@ -1,0 +1,41 @@
+{
+    "category": "data (things)",
+    "display": "Generate QR Code (Serverside)",
+    "fields": {
+        "AAI": {
+            "caption": "Color",
+            "default_val": "rgba(51,51,51,1)",
+            "doc": "Choose the color you want your QR CODE to be generated in!",
+            "editor": "Color",
+            "name": "color",
+            "rank": 0
+        },
+        "AAJ": {
+            "caption": "Content",
+            "default_val": "Define the content of your QR CODE. Remember to use \"format as URL-encoded\" and uncheck the \"Replace spaces with +\" option.",
+            "editor": "DynamicValue",
+            "name": "content",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAK": {
+            "caption": "Width & Height (in pixels)",
+            "default_val": 500,
+            "doc": "QR Code size (in pixels). Maximum: 1000px.",
+            "editor": "DynamicValue",
+            "name": "size",
+            "rank": 2,
+            "value": "number"
+        }
+    },
+    "platform_type": "web",
+    "return_value": {
+        "AAL": {
+            "caption": "URL QRcode",
+            "name": "url",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side"
+}

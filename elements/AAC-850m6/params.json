@@ -1,0 +1,40 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "QR Code",
+    "events": {
+        "AAF": {
+            "caption": "Saved URL",
+            "doc": "Triggers when the QR Code is generated. Use this to save the URL in your database, for example.",
+            "name": "save"
+        }
+    },
+    "fields": {
+        "AAD": {
+            "caption": "How to use: Use the \"Generate QR Code\" Action in the workflow to generate the QR Code. In the Workflow in element actions use the Generate action, to generate the QR CODE. You can use the \"Save URL\" Evento to save this URL to the database.",
+            "editor": "Label",
+            "name": "information",
+            "rank": 0
+        }
+    },
+    "icon": "ion-qr-scanner",
+    "platform_type": "web",
+    "property_applications": {
+        "resizable": true
+    },
+    "states": {
+        "AAE": {
+            "caption": "URL",
+            "doc": "URL for the QR Code Image. You can save this to your database.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "url",
+            "value": "text"
+        }
+    }
+}
